@@ -78,7 +78,7 @@ I've been learning and practicing **Python, Java, SQL, HTML, CSS, and JavaScript
 ### 🎯 Attendance through Face Recognition
 A system that recognizes faces via webcam/camera input and automatically marks attendance — removing the need for manual entry.
 
-**Tech Stack:** Python · OpenCV · NumPy · Pandas · JSON
+**Tech Stack:** Python · NumPy · Pandas · JSON
 
 🔗 [View on GitHub](https://github.com/BalaKrishna-6)
 
