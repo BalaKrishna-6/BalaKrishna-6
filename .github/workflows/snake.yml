@@ -17,10 +17,9 @@ jobs:
         uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            dist/github-snake.svg?palette=githublight&color_snake=%23FFB6D9&color_dots=#ebedf0,#a5b4fc,#818cf8,#6366f1,#FFB6D9
-            dist/github-snake-dark.svg?palette=githubdark&color_snake=%23FFB6D9&color_dots=#2d3343,#4b5563,#7C3AED,#A78BFA,#FFB6D9
-
+        outputs: |
+           dist/github-snake.svg?palette=githublight&color_snake=%23FFB6D9&color_dots=#ebedf0,#a5b4fc,#818cf8,#6366f1,#FFB6D9
+           dist/github-snake-dark.svg?palette=githubdark&color_snake=%23FFB6D9&color_dots=#2d3343,#4b5563,#7C3AED,#A78BFA,#FFB6D9
       - name: Push snake animation to output branch
         uses: crazy-max/ghaction-github-pages@v4
         with:
